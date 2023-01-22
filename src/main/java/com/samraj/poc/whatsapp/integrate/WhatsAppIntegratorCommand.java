@@ -14,7 +14,7 @@ public class WhatsAppIntegratorCommand {
     private WhatsAppIntegrateService whatsAppIntegrateService;
 
     @ShellMethod("Send Message to WhatsApp Number")
-    public String send(String message, String number) {
+    public String send(String number) {
         PayloadEntity payloadEntity = new PayloadEntity();
         payloadEntity.setTo(number);
         ResponseEntity<String> response =  whatsAppIntegrateService.sendWhatsAppMessage(payloadEntity);

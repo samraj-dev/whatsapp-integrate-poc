@@ -17,5 +17,10 @@ Run the following command to start the shell
 java.exe -jar whatsapp-integrate-poc-0.0.1-SNAPSHOT.jar
 ```
 A shell will be shown, run the below command to send WhatsApp message
-```send <message> <number>``` example shown below<br/>
-```send Adios 911234567890```
+```
+send <number>
+```
+Example below<br/>
+```
+send 911234567890
+```
